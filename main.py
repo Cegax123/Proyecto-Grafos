@@ -6,6 +6,8 @@ from functions import *
 pygame.init()
 pygame.font.init()
 
+a = 3
+
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 def main():
