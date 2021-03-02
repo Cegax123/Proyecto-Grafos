@@ -2,9 +2,6 @@ import pygame
 import math
 from options import * 
 
-def suma(a, b):
-    return a+b
-
 def imprimir_mensaje(WIN, mensaje, COLOR, posicion, size, all_fonts):
     font = pygame.font.SysFont(all_fonts[0], size) 
     textSurf = font.render(mensaje, True, COLOR)
